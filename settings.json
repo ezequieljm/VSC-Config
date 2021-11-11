@@ -60,6 +60,10 @@
         "before":["<leader>","a"],
         "commands":["workbench.action.revealDefinition"]
       },
+      {
+        "before": ["<leader>","i"],
+        "commands": ["editor.action.marker.next"]
+      }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
       {
