@@ -1,1 +1,1 @@
-# VSCode-config-shortcut-and-vim-plugin
+# Visual Studio Code Config
