@@ -63,4 +63,14 @@
         "commands":["editor.action.moveSelectionToNextFindMatch"]
       }
     ],
+    "workbench.activityBar.visible": false,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "java.format.settings.url": "%HOME/...",
+    "java.format.settings.profile": "java-formater",
+    "editor.minimap.enable":false,
+    "editor.renderIndentGuides": false,
+    "editor.lineNumbers": "relative"
 }
