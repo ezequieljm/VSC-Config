@@ -4,6 +4,11 @@
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
     "vim.insertModeKeyBindings": [
       {
         "before": ["j", "k"],
@@ -58,24 +63,16 @@
         "commands":["editor.action.moveSelectionToNextFindMatch"]
       }
     ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-      "<C-a>": false,
-      "<C-f>": false
-    },
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.fontFamily": "NotoSansMono Nerd Font",
-    "window.zoomLevel": 1,
     "editor.lineNumbers": "relative",
     "editor.suggestSelection": "first",
+    "editor.renderIndentGuides":false,
     "files.exclude": {
       "**/.classpath": true,
       "**/.project": true,
       "**/.settings": true,
       "**/.factorypath": true
     },
-    "workbench.colorTheme": "GitHub Dark Default",
-    "editor.renderIndentGuides":false,
 }
