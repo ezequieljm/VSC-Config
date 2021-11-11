@@ -52,6 +52,14 @@
         "before":["<leader>","h","s"],
         "commands":["workbench.action.splitEditorRight"]
       },
+      {
+        "before":["<leader>","t"],
+        "commands":["workbench.action.toggleSidebarVisibility"]
+      },
+      {
+        "before":["<leader>","a"],
+        "commands":["workbench.action.revealDefinition"]
+      },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
       {
