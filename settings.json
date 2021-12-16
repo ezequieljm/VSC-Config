@@ -4,85 +4,205 @@
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
-    "vim.leader": "<space>",
+    "vim.leader": ",",
     "vim.handleKeys": {
-      "<C-a>": false,
-      "<C-f>": false
+        "<C-a>": false,
+        "<C-f>": false
     },
     "vim.insertModeKeyBindings": [
-      {
-        "before": ["j", "k"],
-        "after": ["<Esc>"]
-      }
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
-      {
-        "before": ["<leader>", "d"],
-        "commands": ["editor.action.addSelectionToNextFindMatch"]
-      },
-      {
-        "before": ["<leader>","n","l"],
-        "commands": [":nohl"]
-      },
-      {
-        "before":["<leader>","e"],
-        "commands":["workbench.view.explorer"],
-      },
-      {
-        "before":["<leader>","c","s"],
-        "commands":["workbench.action.toggleSidebarVisibility"]
-      },
-      {
-        "before":["<leader>","x"],
-        "commands":["workbench.view.extensions"]
-      },
-      {
-        "before":["<Tab>"],
-        "commands":["workbench.action.nextEditor"]
-      },
-      {
-        "before":["<s-tab>"],
-        "commands":["workbench.action.previousEditor"]
-      },
-      {
-        "before":["<leader>","v","s"],
-        "commands":["workbench.action.splitEditorDown"]
-      },
-      {
-        "before":["<leader>","h","s"],
-        "commands":["workbench.action.splitEditorRight"]
-      },
-      {
-        "before":["<leader>","t"],
-        "commands":["workbench.action.toggleSidebarVisibility"]
-      },
-      {
-        "before":["<leader>","a"],
-        "commands":["workbench.action.revealDefinition"]
-      },
-      {
-        "before": ["<leader>","i"],
-        "commands": ["editor.action.marker.next"]
-      }
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "commands": [
+                "editor.action.addSelectionToNextFindMatch"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n",
+                "l"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "x"
+            ],
+            "commands": [
+                "workbench.view.extensions"
+            ]
+        },
+        {
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<s-tab>"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditorRight"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "commands": [
+                "workbench.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "i"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
-      {
-        "before":["<leader>","d"],
-        "commands":["editor.action.addSelectionToNextFindMatch"]
-      },
-      {
-        "before":["<leader>", "p"],
-        "commands":["editor.action.moveSelectionToNextFindMatch"]
-      }
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "commands": [
+                "editor.action.addSelectionToNextFindMatch"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "editor.action.moveSelectionToNextFindMatch"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
     ],
-    "workbench.activityBar.visible": false,
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-    "java.format.settings.url": "%HOME/...",
+    "java.format.settings.url": "/home/gorz/.config/Code/User/java-formater.xml",
     "java.format.settings.profile": "java-formater",
-    "editor.minimap.enable":false,
+    "editor.minimap.enable": false,
     "editor.renderIndentGuides": false,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.activityBar.visible": false,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDelete": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.rulers": [
+        {
+            "color": "grey",
+            "column": 100
+        },
+    ],
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.codeLens": false,
+    "window.zoomLevel": 1
 }
